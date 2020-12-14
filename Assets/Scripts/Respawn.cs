@@ -13,8 +13,6 @@ public class Respawn : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            //player.transform.position = respawnPoint.transform.position;
-            //Physics.SyncTransforms();
         }
     }
 }
